@@ -1,0 +1,40 @@
+.post {
+    display: inline-block;
+    margin: 40px 1px;
+    border: 1px solid #e1e1e1;
+    padding: 20px 5px;
+    background-color: #fff;
+    position: relative;
+
+    h5 {
+        font-size: 26px;
+        font-weight: normal;
+        color: #444;
+        margin: 20px 0px;
+    }
+
+    p {
+        padding-top: 2px;
+    }
+
+    .button {
+        text-decoration: none;
+        color: #444;
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 12px 34px;
+        border-radius: 4px;
+    }
+}
+
+.post-1 {
+    transform: translate(100px, 20px);
+}
+
+.post-2 {
+    z-index: 2;
+}
+
+.post-3 {
+    transform: translate(-100px, 20px);
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: #aaa;
+    font-weight: 300;
+}
+
+figure {
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    margin-bottom: 260px;
+
+    article {
+        padding: 50px 0px;
+        max-width: 640px;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-size: 34px;
+        }
+
+        p {
+            line-height: 28px;
+            color: #444;
+        }
+
+        hr {
+            border: 1px solid rgba(0,0,0,.2);
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+}

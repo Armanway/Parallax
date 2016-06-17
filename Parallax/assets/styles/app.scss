@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@import "content/article";
+@import "content/clothes-pics";
+@import "content/large-window";
+@import "content/window-tint";
+
+@import "header/bird-box";
+
+@import "section/blog-posts-row";
+
+@import "footer/footer";
+@import "footer/footer2";

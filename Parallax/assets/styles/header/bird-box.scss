@@ -1,0 +1,61 @@
+// Parallax
+
+.bird-box {
+    position: relative;
+    height: 600px;
+    background-image: url(../../images/wallpaper.jpg);
+    background-size: auto 1000px;
+    background-position: bottom center;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.logo {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    margin-left: -240px;
+    margin-top: -60px;
+    color: #ccc;
+
+    h1 {
+        font-size: 72px;
+        letter-spacing: 6px;
+        text-shadow: 2px 1px 2px #fff;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        max-width: 480px; 
+        line-height: 26px; 
+    }
+}
+
+.fore-bird {
+    width: 100%;
+    height: 400px;;
+    background-image: url(../../images/3.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10%;
+    margin-left: -280px;
+    top: 380px;
+}
+
+.back-bird {
+    width: 100%;
+    height: 298px;
+    background-image: url(../../images/6.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
